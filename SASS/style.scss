@@ -1,0 +1,25 @@
+
+$carousel-width: 400px;
+
+@mixin carouselSize() {
+	width: $carousel-width;
+	height: 300px;
+}
+
+#carousel {
+	@include carouselSize;
+	overflow: hidden;
+	margin: 0 auto;
+	ul {
+		padding: 0;
+		margin: 0;
+		width: $carousel-width * 5;
+		li {
+			list-style: none;
+			float: left;
+		}
+	}
+}
+
+
+

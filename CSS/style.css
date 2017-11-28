@@ -1,0 +1,14 @@
+#carousel {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto; }
+  #carousel ul {
+    padding: 0;
+    margin: 0;
+    width: 2000px; }
+    #carousel ul li {
+      list-style: none;
+      float: left; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 $(function(){
 	//this code will execute after the DOM is loaded
 	var carouselList = $("#carousel ul");
-	setTimeout(changeSlide, 3000);
+	setInterval(changeSlide, 3000);
 	function changeSlide() {
 		carouselList.animate({'marginLeft':-400}, 500, moveFirstSlide);
 	};

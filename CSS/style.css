@@ -1,13 +1,13 @@
-#carousel {
+.carousel {
   width: 400px;
   height: 300px;
   overflow: hidden;
   margin: 0 auto; }
-  #carousel ul {
+  .carousel ul {
     padding: 0;
     margin: 0;
     width: 2000px; }
-    #carousel ul li {
+    .carousel ul li {
       list-style: none;
       float: left; }
 
